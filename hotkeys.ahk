@@ -1,5 +1,23 @@
 #SingleInstance force
 
+^+c::
+	IfWinActive, Dwarf Fortress
+	{
+		Send, qrock{Space}craft{Enter}20{Enter}
+		Sleep, 5
+		Send, qrock{Space}craft{Enter}20{Enter}
+		Sleep, 5
+		Send, qrock{Space}craft{Enter}20{Enter}
+		Sleep, 5
+		Send, qrock{Space}craft{Enter}20{Enter}
+		Sleep, 5
+		Send, qrock{Space}craft{Enter}20{Enter}
+		Sleep, 5
+		Send, qrock{Space}craft{Enter}20{Enter}
+		Sleep, 5
+	}
+	return
+
 ^+enter::
 	IfWinActive, Dwarf Fortress
 	{
