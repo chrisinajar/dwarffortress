@@ -18,6 +18,17 @@
 	}
 	return
 
+^+q::
+	IfWinActive, Dwarf Fortress
+	{
+		Send, qbed{Enter}18{Enter}
+		Sleep, 5
+		Send, qrock{Space}ca{Enter}18{Enter}
+		Sleep, 5
+		Send, qrock{Space}door{Enter}20{Enter}
+	}
+	return
+
 ^+enter::
 	IfWinActive, Dwarf Fortress
 	{
